@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+h3 {
+  font-family: "Kumbh Sans", sans-serif;
+}
+h2 {
+  font-size: 120%;
+  font-family: "Kumbh Sans", sans-serif;
+}
+p {
+  font-family: "Kumbh Sans", sans-serif;
+  font-size: 80%;
+  line-height: 3;
+  letter-spacing: 2px;
+  color: hsl(0, 0%, 59%);
+}
+section {
+  background-color: hsl(185, 75%, 39%);
+  overflow: hidden;
+  height: 100vh;
+  width: 100vw;
+  position: relative;
+}
+.circle .imgbottom,
+.circle .imgtop {
+  position: absolute;
+}
+.circle .imgtop {
+  top: -523px;
+  left: -265px;
+}
+.circle .imgbottom {
+  bottom: -550px;
+  right: -205px;
+}
+.card-main {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.card {
+  height: 55%;
+  width: 25%;
+  background-color: azure;
+  z-index: 1;
+  border-radius: 20px;
+}
+.header {
+  width: 25%;
+  height: 23%;
+  position: absolute;
+}
+.topimg {
+  width: 100%;
+  height: 100%;
+  border-radius: 20px 20px 0px 0px;
+  position: absolute;
+}
+.avatarimg {
+  width: 25.2%;
+  position: absolute;
+  margin-top: 7%;
+  display: flex;
+  justify-content: center;
+}
+.avatar {
+  border-radius: 50%;
+  border: solid 5px #fff;
+  width: 100px;
+  height: 100px;
+}
+.middle {
+  width: 100%;
+  height: 58%;
+}
+.information {
+  width: 100%;
+  height: 20%;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  line-height: 2;
+}
+
+.age {
+  color: hsl(0, 0%, 59%);
+  margin-left: 15px;
+}
+.city {
+  color: hsl(0, 0%, 59%);
+}
+hr.style1 {
+  border-top: 2px solid #8c8b8b;
+  opacity: 0.2;
+}
+.footer {
+  height: 21%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.takip {
+  margin-left: 20px;
+}
+.followers {
+}
+.likes {
+  margin-left: 10%;
+}
+
+.photos {
+  margin-left: 13%;
+}
